@@ -1,0 +1,334 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\WebUI\\WebUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\rgvas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rgvas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\rgvas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rgvas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Infra.Data\\Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Infra.Data\\Infra.Data.csproj",
+        "projectName": "Infra.Data",
+        "projectPath": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Infra.Data\\Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\rgvas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rgvas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Infra.IoC\\Infra.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Infra.IoC\\Infra.IoC.csproj",
+        "projectName": "Infra.IoC",
+        "projectPath": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Infra.IoC\\Infra.IoC.csproj",
+        "packagesPath": "C:\\Users\\rgvas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Infra.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rgvas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Application\\Application.csproj"
+              },
+              "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Infra.Data\\Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Infra.Data\\Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\WebUI\\WebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\WebUI\\WebUI.csproj",
+        "projectName": "WebUI",
+        "projectPath": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\WebUI\\WebUI.csproj",
+        "packagesPath": "C:\\Users\\rgvas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\WebUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rgvas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Infra.IoC\\Infra.IoC.csproj": {
+                "projectPath": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Infra.IoC\\Infra.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
