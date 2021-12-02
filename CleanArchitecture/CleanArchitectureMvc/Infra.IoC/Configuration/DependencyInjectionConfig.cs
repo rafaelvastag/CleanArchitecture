@@ -1,14 +1,12 @@
-﻿using Domain.Interfaces;
+﻿using Application.Mappings;
+using Application.Services;
+using Application.Services.Impl;
+using Domain.Interfaces;
 using Infra.Data.Context;
 using Infra.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Infra.IoC.Configuration
 {
@@ -24,6 +22,10 @@ namespace Infra.IoC.Configuration
 
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IProductRepository,  ProductRepository>();
+            services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<ICategoryService, CategoryService>();
+
+            services.AddAutoMapper(typeof(EntityToDTOMappingProfile));
 
             return services;
         }
