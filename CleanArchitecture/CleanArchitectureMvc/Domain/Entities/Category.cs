@@ -32,8 +32,8 @@ namespace Domain.Entities
 
         private void ValidateId(int id)
         {
-            DomainExceptionValidation.When(id <= 0, $"Invalid Id value: {id}");
-            Id = Id;
+            DomainExceptionValidation.When(id < 0, $"Invalid Id value: {id}");
+            Id = id;
         }
 
     }

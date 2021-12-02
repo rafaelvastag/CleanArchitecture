@@ -52,10 +52,9 @@ namespace Domain.Entities
             DomainExceptionValidation.When(string.IsNullOrEmpty(name), "Invalid Name is required");
             DomainExceptionValidation.When(name.Length < 3, "Invalid Name size, minimun length is 3 characters");
             DomainExceptionValidation.When(string.IsNullOrEmpty(description), "Invalid Description is required");
-            DomainExceptionValidation.When(description.Length > 250, "Invalid image name size, maximum length is 250 characters");
-            DomainExceptionValidation.When(image.Length < 3, "Invalid Name size, minimun length is 3 characters");
+            DomainExceptionValidation.When(image?.Length > 250, "Invalid image name size, maximum length is 250 characters");
             DomainExceptionValidation.When(price < 0, "Invalid price value");
-            DomainExceptionValidation.When(stock < 0, "Invalid price value");
+            DomainExceptionValidation.When(stock < 0, "Invalid stock value");
             AtributeDomainValues(name, description, price, stock, image);
         }
 
@@ -69,7 +68,7 @@ namespace Domain.Entities
         }
         private void ValidateId(int id)
         {
-            DomainExceptionValidation.When(id <= 0, $"Invalid Id value: {id}");
+            DomainExceptionValidation.When(id < 0, $"Invalid Id value: {id}");
             Id = Id;
         }
     }

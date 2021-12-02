@@ -4,6 +4,6 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
-    public interface ICategoryInterface : IRepository<Category>
+    public interface ICategoryRepository : IRepository<Category>
     { }
 }
