@@ -1,4 +1,5 @@
-﻿using Application.DTOs;
+﻿using Application.CQRS.Products.Commands;
+using Application.DTOs;
 using AutoMapper;
 using Domain.Entities;
 using System;

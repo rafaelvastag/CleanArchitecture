@@ -5,7 +5,5 @@ using System.Threading.Tasks;
 namespace Application.Services
 {
     public interface IProductService : IService<ProductDTO, Product>
-    {
-        Task<ProductDTO> FindProductWithCategoriesByIdAsync(int? id);
-    }
+    { }
 }

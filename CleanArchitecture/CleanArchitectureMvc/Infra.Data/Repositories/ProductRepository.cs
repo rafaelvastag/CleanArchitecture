@@ -24,11 +24,6 @@ namespace Infra.Data.Repositories
 
         public async Task<Product> FindByIdAsync(int? id)
         {
-            return await _context.Products.FindAsync(id);
-        }
-
-        public async Task<Product> FindProductWithCategoriesByIdAsync(int? id)
-        {
             return await _context.Products.Include(p => p.Category).SingleOrDefaultAsync(p => p.Id == id);
         }
 

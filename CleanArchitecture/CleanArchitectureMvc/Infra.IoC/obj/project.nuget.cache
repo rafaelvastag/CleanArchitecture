@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "3T/Y0A3/0mheCVs9Ea8ZWNLapicUJ2xbsFVCSqVuSxGwG9oamvLBOZ9mCqXNzryvAoyDGnSgb35hAhwdsFqBeg==",
+  "dgSpecHash": "/VBtC7/liSVrb+8DmieSMzrRHUA7wRQiwmAq3Ynn9Hc6vMUZ9gxN7+e92P2G04ah0qxEKqwE97CZOpTDARbV7w==",
   "success": true,
   "projectFilePath": "C:\\Users\\rgvas\\Desktop\\CleanArchitecture\\CleanArchitecture\\CleanArchitectureMvc\\Infra.IoC\\Infra.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rgvas\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\rgvas\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\rgvas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\rgvas\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\rgvas\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\rgvas\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\rgvas\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\rgvas\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
