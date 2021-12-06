@@ -21,6 +21,8 @@ namespace WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddInfrastructureAPI(Configuration);
+            services.AddInfrastructureToken(Configuration);
+
             services.AddControllers();
 
             services.AddControllers().AddNewtonsoftJson(options => 

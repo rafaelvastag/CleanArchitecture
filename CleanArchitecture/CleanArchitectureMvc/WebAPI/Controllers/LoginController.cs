@@ -44,6 +44,22 @@ namespace WebAPI.Controllers
             }
         }
 
+        [HttpPost("User")]
+        public async Task<ActionResult<UserTokenDTO>> Register([FromBody] UserLoginDTO userInfos)
+        {
+            var result = await _authentication.RegisterUser(userInfos.Email, userInfos.Password);
+
+            if (result)
+            {
+                return GenerateToken(userInfos);
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, "Invalid Login attempt.");
+                return BadRequest(ModelState);
+            }
+        }
+
         private UserTokenDTO GenerateToken(UserLoginDTO userInfos)
         {
             var claims = new[]
