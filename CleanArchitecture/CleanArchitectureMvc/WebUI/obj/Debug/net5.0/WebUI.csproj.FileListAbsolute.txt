@@ -23,8 +23,6 @@ C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\
 C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
 C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cors.dll
-C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.dll
 C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -109,8 +107,6 @@ C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\
 C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.dll
 C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Http.dll
-C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Identity.Core.dll
-C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.dll
 C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
@@ -406,3 +402,11 @@ C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\
 C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\obj\Debug\net5.0\Razor\Views\Products\Delete.cshtml.g.cs
 C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\obj\Debug\net5.0\Razor\Views\Products\Details.cshtml.g.cs
 C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\obj\Debug\net5.0\Razor\Views\Products\Edit.cshtml.g.cs
+C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartialView.cshtml.g.cs

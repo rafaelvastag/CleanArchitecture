@@ -1,5 +1,6 @@
 ﻿using Application.DTOs;
 using Application.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -8,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace WebUI.Controllers
 {
+    [Authorize]
     public class CategoriesController : Controller
     {
         private readonly ICategoryService _categoryService;
@@ -74,6 +76,7 @@ namespace WebUI.Controllers
             return View(obj);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public async Task<IActionResult> Delete(int? id)
         {
@@ -88,6 +91,7 @@ namespace WebUI.Controllers
             return View(catOnEdition);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         public async Task<IActionResult> DeleteAction(int id)
         {

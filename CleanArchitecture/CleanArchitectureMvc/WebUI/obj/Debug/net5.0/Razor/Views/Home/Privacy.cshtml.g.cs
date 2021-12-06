@@ -19,8 +19,15 @@ using WebUI;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\rgvas\Desktop\CleanArchitecture\CleanArchitecture\CleanArchitectureMvc\WebUI\Views\_ViewImports.cshtml"
+using WebUI.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"254ff9f9782e69aa2b0fbdbee41379741d84180b", @"/Views/Home/Privacy.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9464dec68e66167921c3f9afc1340280cd784607", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ed735bec74a674c785ef25e8901afec086924dff", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Privacy : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
