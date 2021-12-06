@@ -11,6 +11,9 @@ namespace Application.DTOs
         [MaxLength(100)]
         public string Name { get; set; }
 
+        public CategoryDTO()
+        {}
+
         public CategoryDTO(int id)
         {
             Id = id;
