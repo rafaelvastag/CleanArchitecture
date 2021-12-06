@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{B1D4FE62-FA5D-4C97-B348-651C10DCC41B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{B1D4FE62-FA5D-4C97-B348-651C10DCC41B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{FC31FCF4-2119-410D-A005-235CF094AC9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{FC31FCF4-2119-410D-A005-235CF094AC9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Data", "Infra.Data\Infra.Data.csproj", "{2D20CAFA-9A52-45E4-982D-B33D2FE9A5B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.Data", "Infra.Data\Infra.Data.csproj", "{2D20CAFA-9A52-45E4-982D-B33D2FE9A5B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.IoC", "Infra.IoC\Infra.IoC.csproj", "{D472AA95-363E-4B25-957E-EEE827B92D62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.IoC", "Infra.IoC\Infra.IoC.csproj", "{D472AA95-363E-4B25-957E-EEE827B92D62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "WebUI\WebUI.csproj", "{D2E55D1A-7D38-46D9-8FFA-E800E729C3D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebUI", "WebUI\WebUI.csproj", "{D2E55D1A-7D38-46D9-8FFA-E800E729C3D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Tests", "Domain.Tests\Domain.Tests.csproj", "{B3DD5D4B-7A32-456B-B8BA-F277AEA14CC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Tests", "Domain.Tests\Domain.Tests.csproj", "{B3DD5D4B-7A32-456B-B8BA-F277AEA14CC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{855F002A-FFDC-4B70-97A7-17EA658011C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{B3DD5D4B-7A32-456B-B8BA-F277AEA14CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3DD5D4B-7A32-456B-B8BA-F277AEA14CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3DD5D4B-7A32-456B-B8BA-F277AEA14CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{855F002A-FFDC-4B70-97A7-17EA658011C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{855F002A-FFDC-4B70-97A7-17EA658011C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{855F002A-FFDC-4B70-97A7-17EA658011C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{855F002A-FFDC-4B70-97A7-17EA658011C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
