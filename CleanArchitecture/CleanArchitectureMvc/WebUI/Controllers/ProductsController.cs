@@ -1,7 +1,9 @@
 ﻿using Application.DTOs;
 using Application.Services;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.IO;
 using System.Threading.Tasks;
 
 namespace WebUI.Controllers
@@ -10,11 +12,14 @@ namespace WebUI.Controllers
     {
         private readonly IProductService _productService;
         private readonly ICategoryService _categoryService;
+        private readonly IWebHostEnvironment _environment;
 
-        public ProductsController(IProductService productService, ICategoryService categoryService)
+        public ProductsController(IProductService productService, ICategoryService categoryService,
+            IWebHostEnvironment environment)
         {
             _productService = productService;
             _categoryService = categoryService;
+            _environment = environment;
         }
 
         [HttpGet]
@@ -68,6 +73,23 @@ namespace WebUI.Controllers
                 return RedirectToAction(nameof(Index));
             }
             return View(p);
+        }
+
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (null == id)
+                return NotFound();
+            var product = await _productService.FindByIdAsync(id);
+
+            if (null == product)
+                return NotFound();
+
+            var wwwroot = _environment.WebRootPath;
+            var image = Path.Combine(wwwroot,"images", product.Image);
+            var exists = System.IO.File.Exists(image);
+            ViewBag.ImageExist = exists;
+
+            return View(product);
         }
 
         public async Task<IActionResult> Delete(int? id)
