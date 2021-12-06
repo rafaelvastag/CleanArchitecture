@@ -5,7 +5,7 @@ namespace Infra.IoC.Configuration
 {
     public static class DependencyInjectionSwaggerConfig
     {
-        public static IServiceCollection AddInfrastructureSwager(this IServiceCollection services)
+        public static IServiceCollection AddInfrastructureSwagger(this IServiceCollection services)
         {
             services.AddSwaggerGen(c =>
             {

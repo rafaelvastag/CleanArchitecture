@@ -1,5 +1,6 @@
 ﻿using Application.DTOs;
 using Application.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections;
@@ -8,9 +9,10 @@ using System.Threading.Tasks;
 
 namespace WebAPI.Controllers
 {
-    [Authorize]
+    
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class CategoriesController : ControllerBase
     {
         private readonly ICategoryService _categoryService;
@@ -54,6 +56,7 @@ namespace WebAPI.Controllers
             return new CreatedAtRouteResult("GetCategoryById", new { id = category.Id}, category);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPut]
         public async Task<ActionResult> Put(int id, [FromBody] CategoryDTO categoryDto)
         {
@@ -68,6 +71,7 @@ namespace WebAPI.Controllers
             return Ok(categoryDto);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id:int}")]
         public async Task<ActionResult<CategoryDTO>> Delete(int id)
         {

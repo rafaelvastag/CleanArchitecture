@@ -1,16 +1,16 @@
 ﻿using Application.DTOs;
 using Application.Services;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class ProductsController : ControllerBase
     {
         private readonly IProductService _productService;
@@ -69,6 +69,7 @@ namespace WebAPI.Controllers
             return Ok(produtoDto);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<ActionResult<ProductDTO>> Delete(int id)
         {

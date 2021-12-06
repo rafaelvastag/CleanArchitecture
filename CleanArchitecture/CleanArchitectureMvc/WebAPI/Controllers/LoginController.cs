@@ -1,4 +1,5 @@
 ﻿using Domain.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -28,6 +29,7 @@ namespace WebAPI.Controllers
             _configuration = configuration;
         }
 
+        [AllowAnonymous]
         [HttpPost]
         public async Task<ActionResult<UserTokenDTO>> Login([FromBody] UserLoginDTO userInfos)
         {
